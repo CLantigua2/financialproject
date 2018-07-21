@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Quicksand" rel="stylesheet">
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="banner">
+            <h1 class="myHeader">Financial Advisor</h1>
+            <h3>Support at your finger tips</h3>
+        </div>
+        <div class="container">
+            <nav class="navbar navbar-light" style="background-color: rgb(255, 125, 18, 0.8);">
+                <form class="form-inline">
+                    <a class="navbar-brand" href="#">Home</a>
+                    <a class="navbar-brand" href="#">News</a>
+                    <a class="navbar-brand" href="#">Events</a>
+                    <a class="navbar-brand" href="#">Forum</a>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </nav>
+        </div>
+        <div class="firstMessage">
+            <h2>
+                <em>Financial Freedom</em>
+            </h2>
+            <img src="img/img1.jpg" class="firstImg">
+            <p id="paragraph">
+                Ever wondered how some people save money but seem to be able to afford nice things? Studies show that about 70% of Americans
+                are currently living paycheck to paycheck even while bringing in decent income. So how are they able to break
+                this habit and afford all of the things that we all want? They use the broke or not financial calculator.
+                Give the free version below a try and see how much it could save you annually with some simple life style
+                changes.
+            </p>
+        </div>
+        <div class="calculator">
+            <img src="img/money.jpg" class="moneyImg">
+            <form>
+                <div class="form-group">
+                    <label for="monthlyIncome">Monthly Income</label>
+                    </br>
+                    <input type="number" name="MonthlyIncome" id="monthlyIncome" placeholder="Enter dollar amount">
+                    <div>
+                        <p>Annual Income</p>
+                        <p id="annualIncome"></p>
+                        <p>Annual Savings</p>
+                        <p id="savings"></p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="currentFunds">Current Funds</label>
+                    </br>
+                    <input type="number" name="Funds" id="funds" placeholder="Enter dollar amount">
+                </div>
+
+                <button type="button" class="btn btn-primary" id="button">Submit</button>
+                <button type="button" class="btn btn-danger" id="clear">Clear</button>
+                <p id="answer"></p>
+
+            </form>
+        </div>
+
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+            crossorigin="anonymous"></script>
+
+        <!-- Custom JavaScript -->
+        <script src="app.js"></script>
+</body>
+
+</html>

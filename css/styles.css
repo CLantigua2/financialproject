@@ -1,0 +1,102 @@
+body {
+    padding: 40px;
+}
+
+.container {
+    width: 1000px;
+    padding: 0;
+    background: rgba(240, 240, 240, 0.8);
+}
+
+p#paragraph {
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    padding: 30px 26px;
+    background-color: rgb(69, 17, 117);
+    color: rgba(255, 255, 255, 1);
+    width: 650px;
+    margin: 50px 0;
+    left: 15em;
+}
+
+.banner {
+    background-image: url("/img/resourcesbanner.jpg");
+    background-size: cover;
+    width: 1000px;
+    height: 150px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.myHeader {
+    font-family: 'Bree Serif', serif;
+    font-size: 40px;
+}
+
+.banner h3 {
+    padding: 0 0 0 60px;
+}
+
+.firstImg {
+    position: relative;
+    max-width: 700px;
+    justify-content: right;
+    left: 3em;
+    border: 1px solid #000000;
+}
+
+input[type="text"] {
+    font-size: 14px;
+    padding: 24px;
+    margin: 8px 10px;
+    color: rgba(100, 100, 100, 0.8);
+}
+
+.search {
+    position: relative;
+    float: right;
+}
+
+.firstMessage {
+    position: inherit;
+    padding: 20px 60px 6px 20px;
+    margin: 0 20px 0 0;
+    max-width: 560px;
+    background: rgba(255, 207, 76, 0.7);
+}
+
+.calculator {
+    padding: 40px;
+    width: 1000px;
+    background: rgba(0, 0, 0, 1);
+    color: rgba(245, 245, 245, 1);
+}
+
+.moneyImg {
+    position: relative;
+    width: 450px;
+    float: left;
+    justify-content: right;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 0;
+    }
+    p#paragraph {
+        font-size: 30px;
+    }
+    a.navbar-brand {
+        font-size: 34px;
+    }
+    label {
+        font-size: 34px;
+    }
+    p {
+        font-size: 30px;
+    }
+    button[type] {
+        font-size: 30px;
+    }
+}
